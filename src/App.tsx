@@ -46,7 +46,7 @@ const App: React.FC = () => {
       </Typography>
       <Grid container spacing={2}>
         {/* Markdown Input Pane */}
-        <Grid item xs={12} md={6}>
+        <Grid>
           <Box component="section" aria-label="Markdown Input">
             <TextField
               multiline
@@ -61,7 +61,7 @@ const App: React.FC = () => {
         </Grid>
 
         {/* Preview & Controls Pane */}
-        <Grid item xs={12} md={6}>
+        <Grid>
           <Box
             component="section"
             aria-label="Rendered Output"
